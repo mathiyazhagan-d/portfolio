@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import aboutSvg from "../assets/about.svg";
+import aboutSvg from "../assets/about.jpg";
 
 function About() {
   return (
