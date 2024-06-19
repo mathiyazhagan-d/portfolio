@@ -1,3 +1,5 @@
+import java from '../assets/java.png';
+
 export const skillsArr = [
   {
     imgurl:
@@ -18,20 +20,6 @@ export const skillsArr = [
     imgurl:
       "https://cdn.iconscout.com/icon/free/png-256/free-react-3-1175109.png",
     name: "reactjs",
-  },
-  {
-    imgurl:
-      "https://cdn.iconscout.com/icon/free/png-512/free-typescript-1174965.png?f=webp&w=512",
-    name: "typescript",
-  },
-  {
-    imgurl: "https://cdn.iconscout.com/icon/free/png-256/free-sass-226054.png",
-    name: "sass",
-  },
-  {
-    imgurl:
-      "https://velog.velcdn.com/images/jongsunpark88/post/32f4053b-daa1-4fbc-b8e5-2a3d0651faf4/style300.png",
-    name: "styled-components",
   },
   {
     imgurl:
@@ -80,9 +68,31 @@ export const skillsArr = [
       "https://cdn.iconscout.com/icon/premium/png-512-thumb/sql-6316927-5309941.png?f=webp&w=512",
     name: "sql",
   },
+ 
   {
     imgurl:
-      "https://cdn.iconscout.com/icon/free/png-512/free-azure-devops-3628645-3029870.png?f=webp&w=512",
-    name: "azure devops",
+     "https://www.pngall.com/wp-content/uploads/13/Mongodb-PNG-Image-HD.png",
+    name: "MongoDB",
+  },
+  {
+    imgurl:
+      "https://mui.com/static/logo.png",
+    name: "Mui",
+  },
+  {
+    imgurl:'https://cdn.worldvectorlogo.com/logos/java.svg',
+    name: "java",
+  },
+  {
+    imgurl:'https://pbs.twimg.com/profile_images/1735429515541938176/zOO1N7Su_400x400.jpg',
+    name: "Render",
+  },
+  {
+    imgurl:"https://logos-world.net/wp-content/uploads/2021/08/Amazon-Web-Services-AWS-Logo.png",
+    name: "AWS",
+  },
+  {
+    imgurl:"https://www.yessinfotech.com/wp-content/uploads/2019/11/spring-boot-logo.png",
+    name: "spring boot",
   },
 ];
