@@ -1,5 +1,3 @@
-import java from '../assets/java.png';
-
 export const skillsArr = [
   {
     imgurl:
