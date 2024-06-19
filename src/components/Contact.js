@@ -22,7 +22,7 @@ function Contact() {
           </p>
           <ContactBtns>
             <a
-              href="https://www.linkedin.com/in/jothika-anbarasu/"
+              href="https://www.linkedin.com/in/mathiyazhagan-d-59b04425b/"
               target="_blank"
               rel="noreferrer"
             >
@@ -31,7 +31,7 @@ function Contact() {
               </button>
             </a>
             <a
-              href="https://github.com/JothikaAnbarasu"
+              href="https://github.com/mathiyazhagan-d"
               target="_blank"
               rel="noreferrer"
             >
@@ -40,7 +40,7 @@ function Contact() {
               </button>
             </a>
             <a
-              href="mailto:jothika.anbarasu@outlook.com"
+              href="mailto:mathijo971@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
