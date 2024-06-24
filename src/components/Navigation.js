@@ -44,20 +44,20 @@ function Navigation() {
           </li>
           <li className="navigation-item">
             <AnchorLink
-              href="#education"
-              className="navigation-link "
-              onClick={handleCheckboxChange}
-            >
-              Education
-            </AnchorLink>
-          </li>
-          <li className="navigation-item">
-            <AnchorLink
               href="#experience"
               className="navigation-link "
               onClick={handleCheckboxChange}
             >
               Experience
+            </AnchorLink>
+          </li>
+          <li className="navigation-item">
+            <AnchorLink
+              href="#education"
+              className="navigation-link "
+              onClick={handleCheckboxChange}
+            >
+              Education
             </AnchorLink>
           </li>
           <li className="navigation-item">

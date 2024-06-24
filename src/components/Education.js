@@ -98,7 +98,7 @@ const EducationContainer = styled.div`
   color: ${(props) => props.theme.text};
 
   .education-title {
-    text-align: right;
+    text-align: left;
   }
 
   .education-content {

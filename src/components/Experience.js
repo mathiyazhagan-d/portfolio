@@ -63,7 +63,7 @@ const ExperienceContainer = styled.div`
   color: ${(props) => props.theme.text};
 
   .experience-title {
-    text-align: left;
+    text-align: right;
   }
 
   .experience-content {
