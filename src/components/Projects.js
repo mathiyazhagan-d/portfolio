@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import mealmate from "../assets/meal-mate.jpg";
-import comfysloth from "../assets/comfy-sloth.jpg";
+import mealmate from "../assets/comfy-sloth.png";
+import comfysloth from "../assets/comfy-sloth.png";
 import tictactoe from "../assets/tic-tac-toe.jpg";
 import { ResumeBtn } from "./Hero";
 
@@ -14,7 +14,7 @@ function Projects() {
       <div className="project-content">
         <Project>
           <div
-            className="project-img-wrapper "
+            className="project-img-wrapper"
             data-aos="fade-right"
             data-aos-offset="2"
           >
@@ -23,13 +23,22 @@ function Projects() {
               alt="food delivery app"
               className="project-img"
             />
-            <a
-              href="https://github.com/JothikaAnbarasu/MealMate"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span className="github-text">View GitHub</span>
-            </a>
+            <div className="github-links">
+              <a
+                href="https://github.com/mathiyazhagan-d/ORM-MAT-FE1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="github-text">View GitHub Frontend</span>
+              </a>
+              <a
+                href="https://github.com/mathiyazhagan-d/ORM-MAT-BE"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="github-text">View GitHub Backend</span>
+              </a>
+            </div>
           </div>
           <div
             className="project-details-wrapper"
@@ -38,114 +47,19 @@ function Projects() {
           >
             <h3 className="project-details-title">MealMate</h3>
             <p className="project-details-subtitle">
-              Fully Responsive <ProjectType> Food Delivery App</ProjectType>{" "}
-              with restaurant filtering functionlity
+              Fully Responsive <ProjectType>Food Delivery App</ProjectType> with restaurant filtering functionality
             </p>
             <TeckStack>
-              Tech stack :
+              Tech stack:
               <ul>
-                <li>html</li>
-                <li>css</li>
-                <li>reactjs</li>
-                <li>javascript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>ReactJS</li>
+                <li>JavaScript</li>
               </ul>
             </TeckStack>
             <a
-              href="https://react-food-delivery-app-mealmate.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <ResumeBtn className="visit-btn">View Live</ResumeBtn>
-            </a>
-          </div>
-        </Project>
-
-        <Project>
-          <div
-            className="project-img-wrapper comfy-sloth-img-wrapper"
-            data-aos="fade-left"
-            data-aos-offset="2"
-          >
-            <img
-              src={comfysloth}
-              alt="food delivery app"
-              className="project-img"
-            />
-            <a
-              href="https://github.com/JothikaAnbarasu/comfy-sloth"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span className="github-text">View GitHub</span>
-            </a>
-          </div>
-          <div
-            className="project-details-wrapper comfy-sloth-details-wrapper"
-            data-aos="fade-right"
-            data-aos-offset="2"
-          >
-            <h3 className="project-details-title">ComfySloth</h3>
-            <p className="project-details-subtitle">
-              Responsive <ProjectType>E-commerce website</ProjectType> with
-              product filtering functionality, user authentication and stripe
-              integration
-            </p>
-            <TeckStack>
-              Tech stack :
-              <ul>
-                <li>html</li>
-                <li>css</li>
-                <li>reactjs</li>
-                <li>javascript</li>
-                <li>Styled-components</li>
-              </ul>
-            </TeckStack>
-            <a
-              href="https://react-e-com-comfy-sloth.netlify.app"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <ResumeBtn className="visit-btn">View Live</ResumeBtn>
-            </a>
-          </div>
-        </Project>
-
-        <Project>
-          <div
-            className="project-img-wrapper "
-            data-aos="fade-right"
-            data-aos-offset="2"
-          >
-            <img src={tictactoe} alt="Tic-Tac-Toe" className="project-img" />
-            <a
-              href="https://github.com/JothikaAnbarasu/Tic-Tac-Toe"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span className="github-text">View GitHub</span>
-            </a>
-          </div>
-          <div
-            className="project-details-wrapper"
-            data-aos="fade-left"
-            data-aos-offset="2"
-          >
-            <h3 className="project-details-title">Tic-Tac-Toe</h3>
-            <p className="project-details-subtitle">
-              Responsive <ProjectType> Tic-Tac-Toe game</ProjectType> with time
-              travel feature
-            </p>
-            <TeckStack>
-              Tech stack :
-              <ul>
-                <li>html</li>
-                <li>css</li>
-                <li>reactjs</li>
-                <li>javascript</li>
-              </ul>
-            </TeckStack>
-            <a
-              href="https://master--react-application-tic-tac-toe.netlify.app/"
+              href="https://orm-mat.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
@@ -193,16 +107,30 @@ const Project = styled.div`
       box-shadow: 0 0 25px 5px ${(props) => props.theme.shadow};
     }
 
+    .github-links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+    }
+
     a {
       color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 5px;
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 5px;
+      display: inline-block;
     }
   }
+
   .github-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
     font-size: x-large;
     font-weight: 500;
     cursor: pointer;
@@ -212,6 +140,7 @@ const Project = styled.div`
       opacity: 0.5;
     }
   }
+
   .project-img {
     height: 300px;
     width: 500px;
@@ -219,7 +148,7 @@ const Project = styled.div`
     object-fit: cover;
   }
 
-  .project-img-wrapper:hover .github-text {
+  .project-img-wrapper:hover .github-links {
     opacity: 1;
   }
 
@@ -248,13 +177,6 @@ const Project = styled.div`
     color: ${(props) => props.theme.text};
   }
 
-  .comfy-sloth-img-wrapper {
-    order: 2;
-  }
-  .comfy-sloth-details-wrapper {
-    order: 1;
-  }
-
   @media screen and (max-width: 1000px) {
     .project-img-wrapper {
       width: 30%;
@@ -276,12 +198,6 @@ const Project = styled.div`
     }
     .project-details-wrapper {
       width: 100%;
-    }
-    .comfy-sloth-img-wrapper {
-      order: 1;
-    }
-    .comfy-sloth-details-wrapper {
-      order: 2;
     }
   }
 
@@ -308,4 +224,5 @@ const TeckStack = styled.h5`
     }
   }
 `;
+
 export default Projects;
