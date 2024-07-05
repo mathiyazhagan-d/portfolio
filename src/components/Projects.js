@@ -45,19 +45,21 @@ function Projects() {
             data-aos="fade-left"
             data-aos-offset="2"
           >
-            <h3 className="project-details-title">MealMate</h3>
-            <p className="project-details-subtitle">
-              Fully Responsive <ProjectType>Food Delivery App</ProjectType> with restaurant filtering functionality
-            </p>
-            <TeckStack>
-              Tech stack:
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>ReactJS</li>
-                <li>JavaScript</li>
-              </ul>
-            </TeckStack>
+           <h3 className="project-details-title">ORM-MAT</h3>
+<p className="project-details-subtitle">
+  Fully Responsive <ProjectType>Online Restaurant Management</ProjectType> application with functionalities for managing products, orders, and users.
+</p>
+<TeckStack>
+  Tech stack:
+  <ul>
+    <li>Node.js</li>
+    <li>Express.js</li>
+    <li>MongoDB</li>
+    <li>React.js</li>
+    <li>Redux (for state management)</li>
+  </ul>
+</TeckStack>
+
             <a
               href="https://orm-mat.netlify.app/"
               target="_blank"
