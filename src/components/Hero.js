@@ -61,7 +61,7 @@ function Hero() {
         data-aos-offset="1px"
       >
         <a
-          href="https://drive.google.com/file/d/1MWGvdeKxstv0UiH1aOKCDeebD6z2AbIQ/view?usp=sharing"
+          href="https://drive.google.com/file/d/1n58G1Vx4ORWZdXV4Uh7Cjp6R52hVXICt/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
