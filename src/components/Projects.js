@@ -45,20 +45,23 @@ function Projects() {
             data-aos="fade-left"
             data-aos-offset="2"
           >
-           <h3 className="project-details-title">ORM-MAT</h3>
-<p className="project-details-subtitle">
-  Fully Responsive <ProjectType>Online Restaurant Management</ProjectType> application with functionalities for managing products, orders, and users.
-</p>
-<TeckStack>
-  Tech stack:
-  <ul>
-    <li>Node.js</li>
-    <li>Express.js</li>
-    <li>MongoDB</li>
-    <li>React.js</li>
-    <li>Redux (for state management)</li>
-  </ul>
-</TeckStack>
+            <h3 className="project-details-title">ORM-MAT</h3>
+            <p className="project-details-subtitle">
+              Fully Responsive{" "}
+              <ProjectType>Online Restaurant Management</ProjectType>{" "}
+              application with functionalities for managing products, orders,
+              and users.
+            </p>
+            <TeckStack>
+              Tech stack:
+              <ul>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>MongoDB</li>
+                <li>React.js</li>
+                <li>Redux (for state management)</li>
+              </ul>
+            </TeckStack>
 
             <a
               href="https://orm-mat.netlify.app/"
@@ -67,6 +70,69 @@ function Projects() {
             >
               <ResumeBtn className="visit-btn">View Live</ResumeBtn>
             </a>
+          </div>
+        </Project>
+      </div>
+      <div className="project-content">
+        <Project>
+          <div
+            className="project-img-wrapper"
+            data-aos="fade-right"
+            data-aos-offset="2"
+          >
+            <img
+              src={
+                "https://raw.githubusercontent.com/mathiyazhagan-d/chat-live-frontend/main/public/screenshot/img%20(1).png"
+              }
+              alt="chat app"
+              className="project-img"
+            />
+            <div className="github-links">
+              <a
+                href="https://github.com/mathiyazhagan-d/chat-live-frontend"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="github-text">View GitHub Frontend</span>
+              </a>
+              <a
+                href="https://github.com/mathiyazhagan-d/chat-live-backend"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="github-text">View GitHub Backend</span>
+              </a>
+            </div>
+          </div>
+          <div
+            className="project-details-wrapper"
+            data-aos="fade-left"
+            data-aos-offset="2"
+          >
+            <h3 className="project-details-title">CHAT-LIVE</h3>
+            <p className="project-details-subtitle">
+              Fully Responsive{" "}
+              <ProjectType>Real-time Chat Application</ProjectType> with
+              WebSocket-based messaging and multi-user support.
+            </p>
+            <TeckStack>
+              Tech stack:
+              <ul>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>MongoDB</li>
+                <li>React.js</li>
+                <li>WebSockets (for real-time communication)</li>
+              </ul>
+            </TeckStack>
+
+            {/* <a
+              href="https://orm-mat.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ResumeBtn className="visit-btn">View Live</ResumeBtn>
+            </a> */}
           </div>
         </Project>
       </div>

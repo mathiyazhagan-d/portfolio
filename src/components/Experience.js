@@ -29,7 +29,7 @@ function Experience() {
             TechnicaX in chennai, Tamil Nadu, India
           </p>
           <p className="exp-role">FullStack Developer</p>
-          <p className="exp-duration"> Sept 2023 - Present</p>
+          <p className="exp-duration"> Sept 2023 - Feb 2025</p>
           <p className="expo-techstack">
             <span className="exp-techStack-title">Tech Stack:</span> ReactJS,
             Expressjs, Node, MongoDB
