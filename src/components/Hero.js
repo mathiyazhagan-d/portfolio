@@ -51,7 +51,7 @@ function Hero() {
       </div>
       <div className="hero-description">
         <p data-aos="fade-up" data-aos-delay="1200">
-        I'm a proficient Full Stack Developer.
+          I'm a proficient Full Stack Developer.
         </p>
       </div>
       <div
@@ -61,7 +61,7 @@ function Hero() {
         data-aos-offset="1px"
       >
         <a
-          href="https://drive.google.com/file/d/14zMARPPTrxnw3hIz813-IqbCpzX9ilVK/view"
+          href="https://drive.google.com/file/d/1V9xsgr2_eH2jZ_HaBTf7MoIIIA6RT4b0/view"
           target="_blank"
           rel="noreferrer"
         >
