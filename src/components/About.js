@@ -14,24 +14,46 @@ function About() {
           <ul>
             <li>
               <p data-aos="fade-up">
-                I'm a proficient <span style={{ color: "var(--clr-violet)" }}>Full Stack Developer</span> and <span style={{ color: "var(--clr-violet)" }}>Software Developer</span> at TechnicaX, skilled in Java, Spring Boot, and the MERN stack.
+                I’m a{" "}
+                <span style={{ color: "var(--clr-violet)" }}>
+                  Full Stack Software Engineer
+                </span>{" "}
+                with{" "}
+                <span style={{ color: "var(--clr-violet)" }}>
+                  2.3+ years of experience
+                </span>
+                in building scalable, high-performance applications.
               </p>
             </li>
             <li>
               <p data-aos="fade-up">
-                With a solid background in Full Stack Development, I am committed to continuous learning and professional growth.
+                Skilled in{" "}
+                <span style={{ color: "var(--clr-violet)" }}>
+                  end-to-end system development, third-party API integrations,
+                  and responsive UI/UX design
+                </span>
+                , with exposure to{" "}
+                <span style={{ color: "var(--clr-violet)" }}>
+                  CI/CD pipeline practices
+                </span>
+                .
               </p>
             </li>
             <li>
               <p data-aos="fade-up">
-                I'm eager to contribute to innovative projects in dynamic tech environments, leveraging my skills to drive success and innovation.
+                Proven ability to{" "}
+                <span style={{ color: "var(--clr-violet)" }}>
+                  lead and mentor teams in Agile environments
+                </span>
+                , delivering high-quality, user-centric solutions that improve
+                efficiency and customer experience.
               </p>
             </li>
           </ul>
         </div>
 
         <div className="about-svg-wrapper" data-aos="fade-left">
-          <img src={aboutSvg} alt="designer girl" className="about-svg" />
+          <img src={aboutSvg} alt="about illustration" className="about-svg" />
         </div>
       </div>
     </AboutContainer>
@@ -65,6 +87,7 @@ const AboutContainer = styled.div`
     margin-bottom: 5%;
     &::before {
       content: "⚡";
+      margin-right: 6px;
     }
   }
 
