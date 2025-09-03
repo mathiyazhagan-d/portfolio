@@ -3,6 +3,7 @@ import styled from "styled-components";
 import experienceSvg from "../assets/experience.svg";
 import companyLogo1 from "../assets/10xokr.jpg";
 import companyLogo2 from "../assets/technicax_logo.jpg";
+import companyLogo3 from "../assets/ktg-logo.jpg";
 
 function Experience() {
   return (
@@ -17,42 +18,124 @@ function Experience() {
 
       <div className="experience-content">
         <div className="exp-svg-wrapper" data-aos="fade-left">
-          <img src={experienceSvg} alt="girl working" className="exp-svg" />
-          
+          <img
+            src={experienceSvg}
+            alt="experience illustration"
+            className="exp-svg"
+          />
         </div>
+
         <ExpDetailsWrapper className="exp-details-wrapper" data-aos="fade-up">
-        <h4 className="exp-title">Software Developer</h4>
-        <p className="exp-company">
+          {/* Knock The Globe */}
+          <h4 className="exp-title">Software Developer</h4>
+          <p className="exp-company">
+            <span>
+              <img src={companyLogo3} alt="companyLogo" className="arus-logo" />
+            </span>
+            Knock The Globe Technologies, Karur, Tamil Nadu, India
+          </p>
+          <p className="exp-role">Full Stack Developer</p>
+          <p className="exp-duration">April 2025 – Present</p>
+          <ul className="exp-points">
+            <li>
+              Developed an insurance platform with modules for policy issuance,
+              claims processing, and customer onboarding
+            </li>
+            <li>
+              Integrated 3+ third-party APIs for policy generation with custom
+              payload transformations
+            </li>
+            <li>
+              Implemented WhatsApp Business API for automated customer
+              notifications using templates
+            </li>
+            <li>
+              Deployed full-stack applications on Linode, configured Apache
+              files, integrated Cloudflare, managed manual deployments, and
+              explored CI/CD pipelines
+            </li>
+            <li>
+              Led and mentored a 5-member development team through Agile sprints
+              and code reviews, fostering knowledge sharing, improving team
+              capability, and ensuring timely, high-quality delivery
+            </li>
+          </ul>
+
+          {/* TechnicaX */}
+          <h4 className="exp-title">Software Developer</h4>
+          <p className="exp-company">
             <span>
               <img src={companyLogo2} alt="companyLogo" className="arus-logo" />
             </span>
-            TechnicaX in chennai, Tamil Nadu, India
+            TechnicaX LLC, Chennai, Tamil Nadu, India
           </p>
-          <p className="exp-role">FullStack Developer</p>
-          <p className="exp-duration"> Sept 2023 - Feb 2025</p>
-          <p className="expo-techstack">
-            <span className="exp-techStack-title">Tech Stack:</span> ReactJS,
-            Expressjs, Node, MongoDB
-          </p>
-          <h4 className="exp-title"></h4>
-        
+          <p className="exp-role">Full Stack Developer</p>
+          <p className="exp-duration">Sept 2023 – Feb 2025</p>
+          <ul className="exp-points">
+            <li>
+              <strong>Redicane (Ticketing Software):</strong>
+            </li>
+            <li>
+              Implemented robust import functionality for seamless data uploads
+              and management
+            </li>
+            <li>
+              Designed a comprehensive audit log system to ensure transparency
+              and accountability
+            </li>
+            <li>
+              Built a dynamic notification system for timely updates, improving
+              engagement
+            </li>
+            <li>
+              Integrated time zone handling for accurate scheduling and SLA
+              tracking
+            </li>
+            <li>
+              Designed user-friendly UI/UX with MUI and managed database
+              operations using MongoDB
+            </li>
+            <li>
+              Collaborated via GitLab for version control and efficient teamwork
+            </li>
+            <li>
+              <strong>ATS (Applicant Tracking System):</strong>
+            </li>
+            <li>
+              Developed backend login functionality with secure authentication
+              and authorization
+            </li>
+            <li>Implemented responsive UI components using MUI</li>
+            <li>
+              Worked with cross-functional teams to deliver an intuitive ATS
+              platform
+            </li>
+          </ul>
+
+          {/* 10xOKR */}
+          <h4 className="exp-title">Software Developer</h4>
           <p className="exp-company">
             <span>
               <img src={companyLogo1} alt="companyLogo" className="arus-logo" />
             </span>
-            10xOkr in Bengaluru, Karnataka, India
+            10xOKR, Bengaluru, Karnataka, India
           </p>
-          <p className="exp-role">FullStack Developer</p>
-          <p className="exp-duration">July 2023 - Sept 2023</p>
-          <p className="expo-techstack">
-            <span className="exp-techStack-title">Tech Stack:</span> ReactJS,
-            Spring Boot, Microservice, MySQL, Java
-          </p>
-          
+          <p className="exp-role">Full Stack Developer</p>
+          <p className="exp-duration">July 2023 – Sept 2023</p>
+          <ul className="exp-points">
+            <li>
+              Developed full-stack HRM software with employee import
+              functionality for efficient data management
+            </li>
+            <li>
+              Designed user-friendly interfaces with MUI to enhance workflows
+              and user experience
+            </li>
+            <li>
+              Ensured collaborative development and version control using GitLab
+            </li>
+          </ul>
         </ExpDetailsWrapper>
-        
-          
-      
       </div>
     </ExperienceContainer>
   );
@@ -90,7 +173,7 @@ const ExperienceContainer = styled.div`
   .exp-details-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
+    gap: 1.5rem;
   }
 
   @media screen and (max-width: 1120px) {
@@ -98,7 +181,6 @@ const ExperienceContainer = styled.div`
       height: 350px;
       width: 250px;
     }
-
     .experience-content {
       flex-direction: column;
     }
@@ -111,13 +193,14 @@ const ExperienceContainer = styled.div`
 
 const ExpDetailsWrapper = styled.div`
   p {
-    margin-bottom: 3.5%;
+    margin-bottom: 0.4rem;
   }
 
   .exp-title {
     color: ${(props) => props.theme.text};
-
-    margin-bottom: 8%;
+    margin-bottom: 0.4rem;
+    font-size: 1.2rem;
+    font-weight: 600;
   }
 
   .exp-company {
@@ -129,13 +212,14 @@ const ExpDetailsWrapper = styled.div`
 
   .exp-role {
     color: var(--clr-blue);
-    font-size: x-large;
+    font-size: 1.1rem;
     font-weight: 500;
   }
 
   .exp-duration {
     color: ${(props) => props.theme.eduDuration};
     font-size: 0.9rem;
+    margin-bottom: 0.5rem;
   }
 
   .arus-logo {
@@ -143,24 +227,23 @@ const ExpDetailsWrapper = styled.div`
     width: 40px;
     margin-right: 8px;
   }
-  .exp-techStack-title {
-    font-weight: 600;
-    margin-right: 0.4rem;
-  }
-  .expo-techstack {
-    color: ${(props) => props.theme.eduCgpa};
-    font-size: 0.9rem;
-    font-weight: 500;
+
+  .exp-points {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    list-style-type: "⚡ ";
+    font-size: 0.95rem;
+    color: ${(props) => props.theme.text};
   }
 
   @media screen and (max-width: 400px) {
     .exp-role {
       font-size: large;
     }
-
     .exp-company {
       font-size: medium;
     }
   }
 `;
+
 export default Experience;
