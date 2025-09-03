@@ -73,42 +73,17 @@ function Experience() {
           <p className="exp-duration">Sept 2023 – Feb 2025</p>
           <ul className="exp-points">
             <li>
-              <strong>Redicane (Ticketing Software):</strong>
+              Built <strong>Redicane (Ticketing Software)</strong> with features
+              like import functionality, audit log system, notification system,
+              and SLA time zone handling
             </li>
             <li>
-              Implemented robust import functionality for seamless data uploads
-              and management
+              Designed user-friendly UI/UX with MUI and managed data using
+              MongoDB
             </li>
             <li>
-              Designed a comprehensive audit log system to ensure transparency
-              and accountability
-            </li>
-            <li>
-              Built a dynamic notification system for timely updates, improving
-              engagement
-            </li>
-            <li>
-              Integrated time zone handling for accurate scheduling and SLA
-              tracking
-            </li>
-            <li>
-              Designed user-friendly UI/UX with MUI and managed database
-              operations using MongoDB
-            </li>
-            <li>
-              Collaborated via GitLab for version control and efficient teamwork
-            </li>
-            <li>
-              <strong>ATS (Applicant Tracking System):</strong>
-            </li>
-            <li>
-              Developed backend login functionality with secure authentication
-              and authorization
-            </li>
-            <li>Implemented responsive UI components using MUI</li>
-            <li>
-              Worked with cross-functional teams to deliver an intuitive ATS
-              platform
+              Contributed to <strong>ATS (Applicant Tracking System)</strong> by
+              developing secure login backend and responsive UI components
             </li>
           </ul>
 
