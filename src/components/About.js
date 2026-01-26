@@ -16,37 +16,36 @@ function About() {
               <p data-aos="fade-up">
                 I’m a{" "}
                 <span style={{ color: "var(--clr-violet)" }}>
-                  Full Stack Software Engineer
+                  Full-Stack Software Developer
                 </span>{" "}
                 with{" "}
                 <span style={{ color: "var(--clr-violet)" }}>
-                  2.3+ years of experience
-                </span>
-                in building scalable, high-performance applications.
+                  2.7+ years of experience
+                </span>{" "}
+                building scalable, production-grade web applications.
               </p>
             </li>
+
             <li>
               <p data-aos="fade-up">
-                Skilled in{" "}
+                Strong in{" "}
                 <span style={{ color: "var(--clr-violet)" }}>
-                  end-to-end system development, third-party API integrations,
-                  and responsive UI/UX design
-                </span>
-                , with exposure to{" "}
-                <span style={{ color: "var(--clr-violet)" }}>
-                  CI/CD pipeline practices
-                </span>
-                .
+                  backend development, REST API design, database management, and
+                  third-party integrations
+                </span>{" "}
+                using Node.js, MongoDB, MySQL, PostgreSQL, and React.
               </p>
             </li>
+
             <li>
               <p data-aos="fade-up">
-                Proven ability to{" "}
+                Experienced in{" "}
                 <span style={{ color: "var(--clr-violet)" }}>
-                  lead and mentor teams in Agile environments
+                  production support, cron jobs, deployments, and live issue
+                  debugging
                 </span>
-                , delivering high-quality, user-centric solutions that improve
-                efficiency and customer experience.
+                , while collaborating closely with frontend, Android, and
+                business teams.
               </p>
             </li>
           </ul>

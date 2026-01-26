@@ -38,26 +38,28 @@ function Experience() {
           <p className="exp-duration">April 2025 – Present</p>
           <ul className="exp-points">
             <li>
-              Developed an insurance platform with modules for policy issuance,
-              claims processing, and customer onboarding
+              Worked as a Full-Stack (backend-focused) developer on
+              production-grade systems including payments, HR, audit, tracking,
+              and finance platforms
             </li>
             <li>
-              Integrated 3+ third-party APIs for policy generation with custom
-              payload transformations
+              Designed and developed scalable backend APIs using Node.js
+              (Fastify/Express) with MongoDB, MySQL, and PostgreSQL
             </li>
             <li>
-              Implemented WhatsApp Business API for automated customer
-              notifications using templates
+              Integrated third-party services including Razorpay, WhatsApp
+              Business API, Zoho Mail, Google Maps, and identity verification
+              APIs
             </li>
             <li>
-              Deployed full-stack applications on Linode, configured Apache
-              files, integrated Cloudflare, managed manual deployments, and
-              explored CI/CD pipelines
+              Implemented secure billing and invoice workflows with PDF
+              generation, email and WhatsApp delivery, cron jobs, and failure
+              handling
             </li>
             <li>
-              Led and mentored a 5-member development team through Agile sprints
-              and code reviews, fostering knowledge sharing, improving team
-              capability, and ensuring timely, high-quality delivery
+              Owned production support including server setup, deployments,
+              debugging live issues, API downtime handling, and performance
+              optimization
             </li>
           </ul>
 
@@ -73,17 +75,25 @@ function Experience() {
           <p className="exp-duration">Sept 2023 – Feb 2025</p>
           <ul className="exp-points">
             <li>
-              Built <strong>Redicane (Ticketing Software)</strong> with features
-              like import functionality, audit log system, notification system,
-              and SLA time zone handling
+              Worked on enterprise applications including
+              <strong> Redicane (Ticketing System)</strong> and
+              <strong> Applicant Tracking System (ATS)</strong>
             </li>
             <li>
-              Designed user-friendly UI/UX with MUI and managed data using
-              MongoDB
+              Built and maintained backend APIs using Node.js, Express, and
+              MongoDB supporting large-scale data operations
             </li>
             <li>
-              Contributed to <strong>ATS (Applicant Tracking System)</strong> by
-              developing secure login backend and responsive UI components
+              Implemented import/export modules with validation, bulk
+              processing, and detailed error handling
+            </li>
+            <li>
+              Designed and developed audit log and notification systems for
+              tracking system activity and real-time user updates
+            </li>
+            <li>
+              Implemented time zone–aware SLA logic and built responsive UI
+              components using React and Material UI (MUI)
             </li>
           </ul>
 
@@ -99,15 +109,16 @@ function Experience() {
           <p className="exp-duration">July 2023 – Sept 2023</p>
           <ul className="exp-points">
             <li>
-              Developed full-stack HRM software with employee import
-              functionality for efficient data management
+              Developed a full-stack HRM / OKR management system focusing on
+              usability and performance
             </li>
             <li>
-              Designed user-friendly interfaces with MUI to enhance workflows
-              and user experience
+              Implemented employee data import functionality and optimized
+              backend workflows
             </li>
             <li>
-              Ensured collaborative development and version control using GitLab
+              Built responsive UI components using React and Material UI (MUI)
+              and collaborated using GitLab
             </li>
           </ul>
         </ExpDetailsWrapper>
