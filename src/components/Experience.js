@@ -38,28 +38,58 @@ function Experience() {
           <p className="exp-duration">April 2025 – Present</p>
           <ul className="exp-points">
             <li>
-              Worked as a Full-Stack (backend-focused) developer on
-              production-grade systems including payments, HR, audit, tracking,
-              and finance platforms
+              <p>
+                Worked as a{" "}
+                <span style={{ color: "var(--clr-violet)" }}>
+                  Full-Stack (backend-focused) developer
+                </span>{" "}
+                on production-grade systems across payments, HR, audit,
+                tracking, and finance platforms.
+              </p>
             </li>
+
             <li>
-              Designed and developed scalable backend APIs using Node.js
-              (Fastify/Express) with MongoDB, MySQL, and PostgreSQL
+              <p>
+                Designed and developed{" "}
+                <span style={{ color: "var(--clr-violet)" }}>
+                  scalable backend APIs
+                </span>{" "}
+                using Node.js (Fastify/Express) with MongoDB, MySQL, and
+                PostgreSQL.
+              </p>
             </li>
+
             <li>
-              Integrated third-party services including Razorpay, WhatsApp
-              Business API, Zoho Mail, Google Maps, and identity verification
-              APIs
+              <p>
+                Integrated{" "}
+                <span style={{ color: "var(--clr-violet)" }}>
+                  third-party services
+                </span>{" "}
+                including Razorpay, WhatsApp Business API, Zoho Mail, Google
+                Maps, and identity verification APIs.
+              </p>
             </li>
+
             <li>
-              Implemented secure billing and invoice workflows with PDF
-              generation, email and WhatsApp delivery, cron jobs, and failure
-              handling
+              <p>
+                Implemented{" "}
+                <span style={{ color: "var(--clr-violet)" }}>
+                  billing and invoice workflows
+                </span>{" "}
+                with PDF generation, email & WhatsApp delivery, cron jobs, and
+                failure handling.
+              </p>
             </li>
+
             <li>
-              Owned production support including server setup, deployments,
-              debugging live issues, API downtime handling, and performance
-              optimization
+              <p>
+                Owned{" "}
+                <span style={{ color: "var(--clr-violet)" }}>
+                  production support and deployments
+                </span>
+                , including server setup, live issue debugging, and performance
+                optimization.
+              </p>
             </li>
           </ul>
 
@@ -75,25 +105,56 @@ function Experience() {
           <p className="exp-duration">Sept 2023 – Feb 2025</p>
           <ul className="exp-points">
             <li>
-              Worked on enterprise applications including
-              <strong> Redicane (Ticketing System)</strong> and
-              <strong> Applicant Tracking System (ATS)</strong>
+              <p>
+                Worked on enterprise applications including{" "}
+                <span style={{ color: "var(--clr-violet)" }}>
+                  Redicane (Ticketing System)
+                </span>{" "}
+                and{" "}
+                <span style={{ color: "var(--clr-violet)" }}>
+                  Applicant Tracking System (ATS)
+                </span>
+                .
+              </p>
             </li>
+
             <li>
-              Built and maintained backend APIs using Node.js, Express, and
-              MongoDB supporting large-scale data operations
+              <p>
+                Built and maintained{" "}
+                <span style={{ color: "var(--clr-violet)" }}>backend APIs</span>{" "}
+                using Node.js, Express, and MongoDB for large-scale data
+                operations.
+              </p>
             </li>
+
             <li>
-              Implemented import/export modules with validation, bulk
-              processing, and detailed error handling
+              <p>
+                Implemented{" "}
+                <span style={{ color: "var(--clr-violet)" }}>
+                  import/export modules
+                </span>{" "}
+                with validation, bulk processing, and detailed error handling.
+              </p>
             </li>
+
             <li>
-              Designed and developed audit log and notification systems for
-              tracking system activity and real-time user updates
+              <p>
+                Designed{" "}
+                <span style={{ color: "var(--clr-violet)" }}>
+                  audit log and notification systems
+                </span>{" "}
+                for tracking system activity and real-time user updates.
+              </p>
             </li>
+
             <li>
-              Implemented time zone–aware SLA logic and built responsive UI
-              components using React and Material UI (MUI)
+              <p>
+                Implemented{" "}
+                <span style={{ color: "var(--clr-violet)" }}>
+                  time zone–aware SLA logic
+                </span>{" "}
+                and built responsive UI components using React and Material UI.
+              </p>
             </li>
           </ul>
 
@@ -109,16 +170,33 @@ function Experience() {
           <p className="exp-duration">July 2023 – Sept 2023</p>
           <ul className="exp-points">
             <li>
-              Developed a full-stack HRM / OKR management system focusing on
-              usability and performance
+              <p>
+                Developed a{" "}
+                <span style={{ color: "var(--clr-violet)" }}>
+                  full-stack HRM / OKR management system
+                </span>{" "}
+                with a focus on usability and performance.
+              </p>
             </li>
+
             <li>
-              Implemented employee data import functionality and optimized
-              backend workflows
+              <p>
+                Implemented{" "}
+                <span style={{ color: "var(--clr-violet)" }}>
+                  employee data import functionality
+                </span>{" "}
+                and optimized backend workflows.
+              </p>
             </li>
+
             <li>
-              Built responsive UI components using React and Material UI (MUI)
-              and collaborated using GitLab
+              <p>
+                Built{" "}
+                <span style={{ color: "var(--clr-violet)" }}>
+                  responsive UI components
+                </span>{" "}
+                using React and Material UI and collaborated using GitLab.
+              </p>
             </li>
           </ul>
         </ExpDetailsWrapper>
