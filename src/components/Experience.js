@@ -35,7 +35,7 @@ function Experience() {
             Knock The Globe Technologies, Karur, Tamil Nadu, India
           </p>
           <p className="exp-role">Full Stack Developer</p>
-          <p className="exp-duration">April 2025 – Present</p>
+          <p className="exp-duration">Feb 2025 – Present</p>
           <ul className="exp-points">
             <li>
               <p>
@@ -167,7 +167,7 @@ function Experience() {
             10xOKR, Bengaluru, Karnataka, India
           </p>
           <p className="exp-role">Full Stack Developer</p>
-          <p className="exp-duration">July 2023 – Sept 2023</p>
+          <p className="exp-duration">May 2023 – Sept 2023</p>
           <ul className="exp-points">
             <li>
               <p>
